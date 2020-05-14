@@ -36,7 +36,7 @@
     margin-bottom: 0.1em;
 }
 .ybutton{
-    color: white;
+    color: black;
     background-color: yellow;
     font: 100 20px Arial;
     border-radius: 15px;
@@ -44,7 +44,7 @@
     margin-bottom: 0.1em;
 }
 .orbutton{
-    color: white;
+    color: black;
     background-color: orange;
     font: 100 20px Arial;
     border-radius: 15px;
@@ -84,8 +84,25 @@
     max-width: 75%;
     border-radius:15px;
     flex-direction: column;
-}.normalbox{
+}
+.normalbox{
     border:1px solid black;
     margin: 1px;
     border-radius: 15px;
+}
+.yellowbutton{
+    color: red;
+    background-color: yellow;
+    font: 100 20px Arial;
+    border-radius: 15px;
+    border-style: outset;
+    margin: 0.5em;
+}
+.dbbutton{
+    color: white;
+    background-color: Darkblue;
+    font: 100 20px Arial;
+    border-radius: 15px;
+    border-style: outset;
+    margin:0.5em;
 }

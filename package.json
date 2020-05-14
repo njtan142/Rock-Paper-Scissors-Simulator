@@ -1,6 +1,6 @@
 {
   "name": "rps_simulator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "RockPaperScissors Game Simulator",
   "main": "script.js",
   "scripts": {
