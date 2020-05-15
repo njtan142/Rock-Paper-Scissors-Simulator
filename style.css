@@ -1,108 +1,108 @@
-.basebox1{
-    display: flex;
-    border:1px solid black;
-    font:400 40px Serif;
-    text-align:center;
-    margin:0 auto;
-    max-width: 75%;
-    border-radius:15px;
-    flex-direction: column;
+.basebox1 {
+  display: flex;
+  border: 1px solid black;
+  font: 400 40px Serif;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 75%;
+  border-radius: 15px;
+  flex-direction: column;
 }
-.basebox2{
-   display: flex;
-    border:1px solid black;
-    font:400 20px Times;
-    text-align:center;
-    color: grey;
-    margin:0 auto;
-    max-width: 75%;
-    border-radius:15px;
-    flex-direction: column;
+.basebox2 {
+  display: flex;
+  border: 1px solid black;
+  font: 400 20px Times;
+  text-align: center;
+  color: grey;
+  margin: 0 auto;
+  max-width: 75%;
+  border-radius: 15px;
+  flex-direction: column;
 }
-.gbutton{
-    color: white;
-    background-color: green;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: none;
-    margin-bottom: 0.1em;
+.gbutton {
+  color: white;
+  background-color: green;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 0.1em;
 }
-.ygbutton{
-    color: white;
-    background-color: yellowgreen;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: none;
-    margin-bottom: 0.1em;
+.ygbutton {
+  color: white;
+  background-color: yellowgreen;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 0.1em;
 }
-.ybutton{
-    color: black;
-    background-color: yellow;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: none;
-    margin-bottom: 0.1em;
+.ybutton {
+  color: black;
+  background-color: yellow;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 0.1em;
 }
-.orbutton{
-    color: black;
-    background-color: orange;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: none;
-    margin-bottom: 0.1em;
+.orbutton {
+  color: black;
+  background-color: orange;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 0.1em;
 }
-.rbutton{
-    color: white;
-    background-color: red;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: none;
-    margin-bottom: 0.1em;
+.rbutton {
+  color: white;
+  background-color: red;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 0.1em;
 }
-.drbutton{
-    color: white;
-    background-color: darkred;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: none;
-    margin-bottom: 0.1em;
+.drbutton {
+  color: white;
+  background-color: darkred;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 0.1em;
 }
-.blbutton{
-    color: white;
-    background-color: black;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: none;
-    margin-bottom: 0.1em;
+.blbutton {
+  color: white;
+  background-color: black;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 0.1em;
 }
-.basebox3{
-     display: flex;
-    border:1px solid black;
-    font:400 40px Serif;
-    text-align:center;
-    margin:0 auto;
-    max-width: 75%;
-    border-radius:15px;
-    flex-direction: column;
+.basebox3 {
+  display: flex;
+  border: 1px solid black;
+  font: 400 40px Serif;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 75%;
+  border-radius: 15px;
+  flex-direction: column;
 }
-.normalbox{
-   text-decoration: underline;
-    margin: 1px;
-    border-radius: 15px;
+.normalbox {
+  text-decoration: underline;
+  margin: 1px;
+  border-radius: 15px;
 }
-.yellowbutton{
-    color: red;
-    background-color: yellow;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: outset;
-    margin: 0.5em;
+.yellowbutton {
+  color: red;
+  background-color: yellow;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: outset;
+  margin: 0.5em;
 }
-.dbbutton{
-    color: white;
-    background-color: Darkblue;
-    font: 100 20px Arial;
-    border-radius: 15px;
-    border-style: outset;
-    margin:0.5em;
+.dbbutton {
+  color: white;
+  background-color: Darkblue;
+  font: 100 20px Arial;
+  border-radius: 15px;
+  border-style: outset;
+  margin: 0.5em;
 }
