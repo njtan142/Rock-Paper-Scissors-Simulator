@@ -1,0 +1,6 @@
+CHANGELOG...
+Version 1.0.1 --> Added the Web Design but not interactive
+Version 1.1.0 --> Upgraded form uninteractable to interactable
+Version 2.0.0 --> Added the Simulator Version 2, Game improvements and Design changes
+                  With the Simulator Version 2, the number of wins and draws will not reset
+                  to zero, also added a reset feature 

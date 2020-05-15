@@ -14,7 +14,7 @@
         <button class="yellowbutton" onclick="namesreset()">Reset</button>
         <div class="namebox" id="players">Players' names will be shown here...</div>
     </div>
-    <div class="basebox2">
+   <div class="basebox2">
         <div class="invisiblebox">
             <p>Simulator</p>
             <button class="gbutton" onclick="gamelooper(1)">1 Rounds</button>
@@ -22,8 +22,9 @@
             <button class="ybutton" onclick="gamelooper(50)">20 Rounds</button>
             <button class="orbutton" onclick="gamelooper(50)">50 Rounds</button>
             <button class="rbutton" onclick="gamelooper(100)">100 Rounds</button>
-            <button class="drbutton" onclick="gamelooper(500)">500 Rounds</button>
+            <button class="d rbutton" onclick="gamelooper(500)">500 Rounds</button>
             <button class="blbutton" onclick="gamelooper(1000)">1000 Rounds</button>
+            <button class="yellowbutton" onclick="resetdata()">Reset Data</button>
         </div>
     </div>
     <div class="basebox3">
@@ -35,7 +36,29 @@
 
 
     </div>
-    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    <div class="basebox2">
+        <div class="invisiblebox">
+            <p>Simulator 2 </p>
+            <button class="gbutton" onclick="agamelooper(1)">1 Rounds</button>
+            <button class="ygbutton" onclick="agamelooper(10)">10 Rounds </button>
+            <button class="ybutton" onclick="agamelooper(50)">20 Rounds</button>
+            <button class="orbutton" onclick="agamelooper(50)">50 Rounds</button>
+            <button class="rbutton" onclick="agamelooper(100)">100 Rounds</button>
+            <button class="d rbutton" onclick="agamelooper(500)">500 Rounds</button>
+            <button class="blbutton" onclick="agamelooper(1000)">1000 Rounds</button>
+            <button class="yellowbutton" onclick="agamelooperreset()">Reset Data</button>
+        </div>
+    </div>
+    <div class="basebox3">
+        <p>Results will be shown here</p>
+        <div class="normalbox" id="ap1">Wins of Player1 will be shown here</div>
+        <div class="normalbox" id="ap2">Wins of Player2 will be shown here</div>
+        <div class="normalbox" id="ad">Number of draws will be shown here</div>
+        <div class="normalbox" id="af">The Final WINNER will be shown here</div>
 
+
+    </div>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    <script src="ascript.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

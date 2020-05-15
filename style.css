@@ -86,7 +86,7 @@
     flex-direction: column;
 }
 .normalbox{
-    border:1px solid black;
+   text-decoration: underline;
     margin: 1px;
     border-radius: 15px;
 }

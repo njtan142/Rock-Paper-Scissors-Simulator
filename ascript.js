@@ -82,11 +82,8 @@ function gameSimulator(){
     console.log(draws);
 */
 }
-
-function gamelooper(rounds){
-    winsplayer1 = 0;
-    winsplayer2 = 0;
-    draws = 0;
+function agamelooper(rounds){
+    
     rounds;
     for(i = 0; i < rounds; i++ ){
         gameSimulator();
@@ -108,34 +105,36 @@ function gamelooper(rounds){
     var p2 = document.createTextNode(player2 + " has won " + winsplayer2 + " rounds!!!")
     var d = document.createTextNode(draws + " Draws!!!");
    
-    r1.setAttribute("id", "gamelooper1");
-    r2.setAttribute("id", "gamelooper2");
-    r3.setAttribute("id", "gamelooper3");
-    r4.setAttribute("id", "gamelooper4");
+    r1.setAttribute("id", "agamelooper1");
+    r2.setAttribute("id", "agamelooper2");
+    r3.setAttribute("id", "agamelooper3");
+    r4.setAttribute("id", "agamelooper4");
     
    
     r1.appendChild(p1);
-    document.getElementById("p1").innerHTML = "";
-    document.getElementById("p1").appendChild(r1);
+    document.getElementById("ap1").innerHTML = "";
+    document.getElementById("ap1").appendChild(r1);
     
     r2.appendChild(p2);
-    document.getElementById("p2").innerHTML = "";
-    document.getElementById("p2").appendChild(r2);
+    document.getElementById("ap2").innerHTML = "";
+    document.getElementById("ap2").appendChild(r2);
     
     r3.appendChild(d);
-    document.getElementById("d").innerHTML = "";
-    document.getElementById("d").appendChild(r3);
+    document.getElementById("ad").innerHTML = "";
+    document.getElementById("ad").appendChild(r3);
     
     r4.appendChild(f);
-    document.getElementById("f").innerHTML = "";
-    document.getElementById("f").appendChild(r4);
+    document.getElementById("af").innerHTML = "";
+    document.getElementById("af").appendChild(r4);
     
 
 }
-
-function resetdata(){
-    document.getElementById("gamelooper1").innerHTML = "Wins of Player1 will be shown here";
-    document.getElementById("gamelooper2").innerHTML = "Wins of Player2 will be shown here";
-    document.getElementById("gamelooper3").innerHTML = "Number of draws will be shown here";
-    document.getElementById("gamelooper4").innerHTML = "The Final WINNER will be shown here";
+function agamelooperreset(){
+    winsplayer1 = 0;
+    winsplayer2 = 0;
+    draws = 0;
+    document.getElementById("agamelooper1").innerHTML = "Wins of Player1 will be shown here";
+    document.getElementById("agamelooper2").innerHTML = "Wins of Player2 will be shown here";
+    document.getElementById("agamelooper3").innerHTML = "Number of draws will be shown here";
+    document.getElementById("agamelooper4").innerHTML = "The Final WINNER will be shown here";
 }
