@@ -4,7 +4,7 @@
   font: 400 40px Serif;
   text-align: center;
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 50%;
   border-radius: 15px;
   flex-direction: column;
 }
@@ -15,7 +15,7 @@
   text-align: center;
   color: grey;
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 50%;
   border-radius: 15px;
   flex-direction: column;
 }
@@ -81,7 +81,7 @@
   font: 400 40px Serif;
   text-align: center;
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 50%;
   border-radius: 15px;
   flex-direction: column;
 }
