@@ -9,3 +9,4 @@ Version 2.1.0 --> Some heavy web design changes but it somehow looks terrible
                   Don't worry I will improve the deign, I'm just horrible at 
                   CSS at the moment :(
 Version 2.1.1 --> Corrected the results box not showing up
+Version 2.1.2 --> Corrected the results not displaying
