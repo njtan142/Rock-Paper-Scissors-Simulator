@@ -1,108 +1,147 @@
-.basebox1 {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  height: 60vh;
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+}
+section{
+  width:100%;
+}
+
+.container-all {
   display: flex;
-  border: 1px solid black;
-  font: 400 40px Serif;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 50%;
-  border-radius: 15px;
-  flex-direction: column;
+  padding: 20px;
+  justify-content: space-around;
+  height: 100%;
+  flex-wrap: nowrap;
 }
-.basebox2 {
+
+.container-1 {
+  width: 100%;
+  height: 100%;
   display: flex;
-  border: 1px solid black;
-  font: 400 20px Times;
-  text-align: center;
-  color: grey;
-  margin: 0 auto;
-  max-width: 50%;
-  border-radius: 15px;
   flex-direction: column;
+  padding: 5% 10% 10% 10%;
+  margin: auto;
 }
-.gbutton {
-  color: white;
-  background-color: green;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: none;
-  margin-bottom: 0.1em;
-}
-.ygbutton {
-  color: white;
-  background-color: yellowgreen;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: none;
-  margin-bottom: 0.1em;
-}
-.ybutton {
-  color: black;
-  background-color: yellow;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: none;
-  margin-bottom: 0.1em;
-}
-.orbutton {
-  color: black;
-  background-color: orange;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: none;
-  margin-bottom: 0.1em;
-}
-.rbutton {
-  color: white;
-  background-color: red;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: none;
-  margin-bottom: 0.1em;
-}
-.drbutton {
-  color: white;
-  background-color: darkred;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: none;
-  margin-bottom: 0.1em;
-}
-.blbutton {
-  color: white;
-  background-color: black;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: none;
-  margin-bottom: 0.1em;
-}
-.basebox3 {
+
+.main {
   display: flex;
-  border: 1px solid black;
-  font: 400 40px Serif;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 50%;
-  border-radius: 15px;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 5em;
+  padding: 1em;
 }
-.normalbox {
-  text-decoration: underline;
-  margin: 1px;
-  border-radius: 15px;
+
+.title {
+  text-align: center;
+  padding: 20px;
 }
-.yellowbutton {
-  color: red;
-  background-color: yellow;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: outset;
-  margin: 0.5em;
+
+.container-1 .main .title+section {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1em;
 }
-.dbbutton {
-  color: white;
-  background-color: Darkblue;
-  font: 100 20px Arial;
-  border-radius: 15px;
-  border-style: outset;
-  margin: 0.5em;
+
+.names {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.namesbutton {
+  background-color: rgb(74, 74, 243);
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-right: 1em;
+}
+
+.resetbutton {
+  background-color: rgb(235, 15, 15);
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-left: 1em;
+}
+
+.namebox {
+  text-align: center;
+  padding: 0.3em;
+  font-size: 1.3em;
+}
+
+.number-of-rounds {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+  padding: 1em;
+  border-radius: 10px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.number-of-rounds button{
+  font-size: 1.3em;
+  border-style: none;
+  border-radius: 5px;
+}
+.button1{
+background-color:rgb(68, 68, 155);
+}
+.button10{
+background-color:rgb(66, 168, 194);
+}
+.button100{
+background-color:rgb(78, 189, 106);
+  
+}
+.button500{
+background-color:rgb(218, 235, 65);
+
+}
+.button1000{
+background-color:rgb(240, 100, 45);
+
+}
+.container-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.results-box{
+  border:1px solid black;
+  text-align: center;
+  padding:2em;
+  font-size: 1.5em;
+  margin-top:5em;
+}
+
+@media screen and (max-width:700px) {
+  .container-all {
+    flex-wrap: wrap;
+  }
 }

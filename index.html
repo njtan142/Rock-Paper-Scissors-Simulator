@@ -1,55 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="description" content="This Simulates the Rock Paper Scissors Game by number of times">
-    <title>RPS SIMULATOR</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body style="background-color: darkblue">
-      <script src="script.js" type="text/javascript" charset="utf-8"></script>
-      <header>
-      </header>
-      <main>
-    <div class="basebox1" style="background-color: aqua">
-      <div class="invisiblebox">
-        <p>Rock,Paper,Scissors<br />SIMULATOR!</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="This Simulates the Rock Paper Scissors Game by number of times">
+  <title>RPS SIMULATOR</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <main>
+    <div class="container-all">
+      <div class="container-1">
+        <div class="main">
+          <div class="title">
+            <header>
+              <h1>Rock Paper Scissors Simulator</h1>
+            </header>
+          </div>
+          <section>
+            <div class="names">
+              <button class="namesbutton" onclick="enternames()">
+                Enter Names Here...
+              </button>
+              <button class="resetbutton" onclick="namesreset()">Reset</button>
+            </div>
+            <div class="namebox" id="players">
+              Players' names will be shown here...
+            </div>
+          </section>
+        </div>
+        <section>
+          <div class="number-of-rounds">
+            <button class="button1" onclick="gamelooper(1)">1</button>
+            <button class="button10" onclick="gamelooper(10)">10</button>
+            <button class="button100" onclick="gamelooper(100)">100</button>
+            <button class="button500" onclick="gamelooper(500)">500</button>
+            <button class="button1000" onclick="gamelooper(1000)">1000</button>
+          </div>
+        </section>
       </div>
-      <button class="dbbutton" onclick="enternames()">
-        Enter Names Here...
-      </button>
-      <button class="yellowbutton" onclick="namesreset()">Reset</button>
-      <div class="namebox" id="players">
-        Players' names will be shown here...
+      <div class="container-2">
+        <section>
+          <div class="results-box">
+            <p>Results will be shown here</p>
+            <div class="normalbox" id="p1">Wins of Player1 will be shown here</div>
+            <div class="normalbox" id="p2">Wins of Player2 will be shown here</div>
+            <div class="normalbox" id="d">Number of draws will be shown here</div>
+            <div class="normalbox" id="f">The Final WINNER will be shown here</div>
+          </div>
+        </section>
       </div>
     </div>
-    <div class="basebox2" style="background-color: lightgreen; ">
-      <div class="invisiblebox">
-        <p>Simulator</p>
-        <button class="gbutton" onclick="gamelooper(1)">1 Rounds</button>
-        <button class="ygbutton" onclick="gamelooper(10)">10 Rounds</button>
-        <button class="ybutton" onclick="gamelooper(50)">20 Rounds</button>
-        <button class="orbutton" onclick="gamelooper(50)">50 Rounds</button>
-        <button class="rbutton" onclick="gamelooper(100)">100 Rounds</button>
-        <button class="d rbutton" onclick="gamelooper(500)">500 Rounds</button>
-        <button class="blbutton" onclick="gamelooper(1000)">1000 Rounds</button>
-        <button class="yellowbutton" onclick="resetdata()">Reset Data</button>
-      </div>
-    </div>
-     
-    <div class="basebox3" style="color: white; background-color:grey;">
-      <p>Results will be shown here</p>
-      <div class="normalbox" id="p1">Wins of Player1 will be shown here</div>
-      <div class="normalbox" id="p2">Wins of Player2 will be shown here</div>
-      <div class="normalbox" id="d">Number of draws will be shown here</div>
-      <div class="normalbox" id="f">The Final WINNER will be shown here</div>
-    </div>
-   <div class="basebox2" style="color: lightgray; background-color: grey">
-       <a href="simulator_2.html"><dt>Simulator 2</dt></a>
-     
-            <i>It very similar to the first simulator but doesn't reset the data to zero but stores the data instead</i>
-   </div>
-      </main>
-          
-</body>     
+  </main>
+
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
 </html>
