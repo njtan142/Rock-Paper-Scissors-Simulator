@@ -42,11 +42,11 @@ function namesreset() {
 }
 function gameSimulator() {
   var options = ["Rock", "Paper", "Scissors"];
-  var p2fire = options[Math.floor(Math.random() * options.length)];
-  var p1fire = options[Math.floor(Math.random() * options.length)];
-
-  console.log(p1fire + " vs " + p2fire);
-
+  function length(){
+    return options.length;
+  }
+  var p2fire = options[Math.floor(Math.random() * length())];
+  var p1fire = options[Math.floor(Math.random() * length())];
   if (p2fire == "Paper" && p1fire == "Rock") {
     winsplayer2 += 1;
   } else if (p2fire == "Scissors" && p1fire == "Paper") {
